@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-bkm
+  host: IoT-bkm
+  disk_quota: 1024M
+  services:
+  - IoT-bkm-cloudantNoSQLDB
+  - IoT-bkm-iotf-service
